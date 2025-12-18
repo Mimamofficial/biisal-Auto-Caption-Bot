@@ -14,19 +14,20 @@ def is_enabled(value, default):
         return default
 
 
-ADMIN = int(getenv("ADMIN", ""))
-API_ID = int(getenv("API_ID", ""))
-API_HASH = str(getenv("API_HASH", ""))
+ADMIN = int(getenv("ADMIN", "6139759254"))
+API_ID = int(getenv("API_ID", "23631217"))
+API_HASH = str(getenv("API_HASH", "567c6df308dc6901790309499f729d12"))
 BOT_TOKEN = str(getenv("BOT_TOKEN", ""))
 MONGO_DB = str(
     getenv(
         "MONGO_DB",
-        "mongodb+srv://replacewithyourmongodb:replacewithyourmongodb@cluster0.zi78j51.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://mrnoffice692:PsO4VGHI9heKd7WA@cluster0.e7vboom.mongodb.net/?appName=Cluster0",
     )
 )
 DEF_CAP = str(
     getenv(
         "DEF_CAP",
-        "<b><a href='telegram.me/bisal_files'>{file_name} Telegram : @Bisal_Files\n\nForward the file before Downloading.</a></b>",
+        "<b><a href='telegram.me/Mrn_Officialx'>{file_name} Telegram : @Mrn_Officialx\n\nForward the file before Downloading.</a></b>",
     )
 )
+
